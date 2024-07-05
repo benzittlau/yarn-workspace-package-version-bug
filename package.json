@@ -1,0 +1,14 @@
+{
+  "name": "yarn-run-version-debugging",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ben Zittlau <ben@zittlau.ca>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "src/apps/workspace-a",
+      "src/apps/workspace-b"
+    ]
+  }
+}
